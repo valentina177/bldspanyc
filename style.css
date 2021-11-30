@@ -1,0 +1,190 @@
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  /*first value for top/bottom, second valuefor left/right*/
+}
+
+.header {
+
+  background: linear-gradient(84deg, #F8F7F7 0%, rgba(255, 250, 254, 1) 66%, rgba(255, 255, 255, 0) 100%),
+    url("images/main.jpg") no-repeat right top;
+  padding: 1.5em;
+
+
+}
+
+nav a {
+  text-decoration: overline;
+  color: Black;
+}
+
+nav li {
+  display: inline;
+  padding: 0 0.5em;
+  font-size: 1.2em;
+}
+
+nav ul {
+  text-align: right;
+  position: relative;
+  margin-left: 30em;
+}
+
+nav a:hover {
+  color: #59357E;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.logo {
+  width: 100px;
+  display: inline-flex;
+}
+
+img.logo {
+  float: left;
+  margin-left: 0px 0px 0px 30px;
+  width: 60px;
+  height: auto;
+}
+
+/* width:200px;  you can use %
+ height: auto;*/
+h3 {
+  font-size: 2.5em;
+  padding: 0.3em;
+  text-align: center;
+  color: #AF6246;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5em;
+  padding-top: 2em;
+  color: #AF6246;
+  font-weight: bold;
+  text-align: left;
+}
+
+p {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: left;
+  font-size: 1.2em;
+  word-break: break-word;
+}
+
+button.appnt {
+  background-color: #AF6246;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  box-shadow: 1px 2px 1px 1px #75412F;
+}
+
+button.appnt:hover {
+  background-color: #75412F;
+  color: white;
+}
+
+button.services {
+  background-color: #AF6246;
+  border: none;
+  color: white;
+  border-radius: 40px;
+  padding: 15px 32px ;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  box-shadow: 1px 2px 1px 1px #75412F;
+  margin-top: 5em;
+}
+
+button.services:hover {
+  background-color: #75412F;
+  color: white;
+}
+
+
+
+.container1 {
+  background-color: white;
+  padding: 4em;
+  text-align: justify;
+}
+
+div.bio {
+  margin: 2em;
+  line-height: 115%;
+  text-align: center;
+  width: 45em;
+  position: relative;
+  margin-left: 23em;
+  margin-bottom: 3em;
+}
+
+.container2 {
+  background-color: #F8F7F7;
+  padding: 4em;
+}
+
+.container3 {
+  background-color: white;
+  padding: 4em;
+}
+
+/*comments*/
+.layout_card {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-row-gap: 1em;
+  grid-column-gap: 0.5em;
+  justify-content: center;
+  align-content: start;
+}
+
+.card_image {
+  width: 20%;
+  flex: 0 1 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card_image img:hover {
+  opacity: 0.5;
+}
+
+.container3 img {
+  max-width: 10%;
+}
+
+.container3 ul {
+  list-style-type: none;
+}
+
+.container3 a {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.container3 li {
+  display: inline;
+  position: relative;
+  margin-left: 16em;
+}
+}
