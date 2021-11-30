@@ -3,9 +3,13 @@
   margin: 0 auto;
   /*first value for top/bottom, second valuefor left/right*/
 }
-.body{  background-color: #F8F7F7;}
+
 .header {
+
+  background: linear-gradient(84deg, #F8F7F7 0%, rgba(255, 250, 254, 1) 66%, rgba(255, 255, 255, 0) 100%),
+    url("images/main.jpg") no-repeat right top;
   padding: 1.5em;
+
 
 }
 
@@ -116,5 +120,71 @@ button.services:hover {
 
 
 
+.container1 {
+  background-color: white;
+  padding: 4em;
+  text-align: justify;
+}
 
+div.bio {
+  margin: 2em;
+  line-height: 115%;
+  text-align: center;
+  width: 45em;
+  position: relative;
+  margin-left: 23em;
+  margin-bottom: 3em;
+}
+
+.container2 {
+  background-color: #F8F7F7;
+  padding: 4em;
+}
+
+.container3 {
+  background-color: white;
+  padding: 4em;
+}
+
+/*comments*/
+.layout_card {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-row-gap: 1em;
+  grid-column-gap: 0.5em;
+  justify-content: center;
+  align-content: start;
+}
+
+.card_image {
+  width: 20%;
+  flex: 0 1 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card_image img:hover {
+  opacity: 0.5;
+}
+
+.container3 img {
+  max-width: 10%;
+}
+
+.container3 ul {
+  list-style-type: none;
+}
+
+.container3 a {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.container3 li {
+  display: inline;
+  position: relative;
+  margin-left: 16em;
+}
 }
