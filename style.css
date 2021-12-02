@@ -3,7 +3,7 @@
   margin: 0 auto;
   /*first value for top/bottom, second valuefor left/right*/
 }
-.body{  background-color: #F8F7F7;}
+body{  background-color: #F8F7F7;}
 .header {
   padding: 1.5em;
 
@@ -35,17 +35,12 @@ button {
   border: none;
 }
 
-.logo {
-  width: 100px;
-  display: inline-flex;
-}
 
-img.logo {
-  float: left;
-  margin-left: 0px 0px 0px 30px;
-  width: 60px;
-  height: auto;
-}
+img{
+    width: 15em;
+    height: auto;
+  }
+
 
 /* width:200px;  you can use %
  height: auto;*/
