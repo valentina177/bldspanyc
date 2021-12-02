@@ -3,32 +3,27 @@
   margin: 0 auto;
   /*first value for top/bottom, second valuefor left/right*/
 }
-body{  background-color: #F8F7F7;}
+body{  background-color: #F8F7F7;
+
+  	font-family: 'Roboto', sans-serif;
+
+  	text-align: center;
+    word-break: break-word;
+
+  }
+
 .header {
   padding: 1.5em;
-
 }
 
-nav a {
-  text-decoration: overline;
-  color: Black;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-nav li {
-  display: inline;
-  padding: 0 0.5em;
-  font-size: 1.2em;
-}
 
-nav ul {
-  text-align: right;
-  position: relative;
-  margin-left: 30em;
-}
 
-nav a:hover {
-  color: #59357E;
-}
 
 button {
   background-color: transparent;
@@ -44,31 +39,32 @@ img{
 
 /* width:200px;  you can use %
  height: auto;*/
-h3 {
-  font-size: 2.5em;
-  padding: 0.3em;
-  text-align: center;
-  color: #AF6246;
-  font-weight: bold;
-}
 
-h2 {
+
+h1 {
   font-size: 2.5em;
-  padding-top: 2em;
   color: #AF6246;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 p {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  text-align: left;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  text-align: center;
   font-size: 1.2em;
   word-break: break-word;
 }
 
-button.appnt {
+.main-title{
+  color: #75412F;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.button {
   background-color: #AF6246;
   border: none;
   color: white;
@@ -83,17 +79,18 @@ button.appnt {
   box-shadow: 1px 2px 1px 1px #75412F;
 }
 
-button.appnt:hover {
+.button:hover {
   background-color: #75412F;
   color: white;
 }
 
-button.services {
+.buttoncall{
   background-color: #AF6246;
   border: none;
   color: white;
   border-radius: 40px;
-  padding: 15px 32px ;
+  margin: 1.5em;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -101,15 +98,34 @@ button.services {
   font-size: 16px;
   transition-duration: 0.5s;
   box-shadow: 1px 2px 1px 1px #75412F;
-  margin-top: 5em;
 }
 
-button.services:hover {
+.buttoncall:hover {
   background-color: #75412F;
   color: white;
 }
 
+ .linkimage img{
+  width: 2em;
+  height: auto;
+  margin-top: 1.5em;
+}
 
+.linkimage li {
+  display: inline;
+  position: relative;
+  margin: 1em;
+}
+
+.linkimage ul {
+  list-style-type: none;
+}
+
+.linkimage a {
+  list-style-type: none;
+  text-decoration: underline;
+  color: #75412F;
+}
 
 
 }
