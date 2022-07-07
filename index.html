@@ -1,52 +1,484 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>BLD SPA</title>
+  <!-- Metas -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="toggle-menu.js"></script>
+  <meta name="author" content="LionCoders" />
+  <!-- Links -->
+  <link rel="icon" type="image/png" href="images/bld1.png" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="icofont.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/slick.css" rel="stylesheet" />
+
+  <link href="css/main.css" rel="stylesheet" />
+  <!-- Document Title -->
+  <title>BLD SPA NYC</title>
 </head>
 
 <body>
-  <!-- Header -->
+  <!-- HEADER SECTION -->
+  <header id="home">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <!-- Change Logo Img Here -->
+        <a class="navbar-brand" href="#"><img src="images/logo1.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="interactive-menu-button">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#home">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#portfolio">Services</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#review">Reviews</a>
+            </li>
 
-  <div class="header">
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#contact-us">Contact Us</a>
+            </li>
 
-    <img src="images/bldspa.svg" alt="logo" class="center">
-    <h1>BLD SPA</h1>
-    <p class="main-title">COMING SOON</p>
-    <p>Thank you for visiting our website. We are temporarily </p>
-    <p><u>CLOSED due to redesigning</u>. Come back soon!</p>
+          </ul>
+          <form data-scroll href="#contact-us" class="contact-btn form-inline my-2 my-lg-0">
+            <!-- Contacgt Us Button -->
+            <button onclick="location.href='https://squareup.com/appointments/book/aesetdrqfhlell/L80PBTWH0QXC3/services'" type="button">BOOK NOW</button>
+          </form>
+        </div>
+      </nav>
+    </div>t
+    <!-- HERO SECTION -->
+    <div class="container-fluid hero">
+      <img src="images/shape1.svg" alt="">
+      <div class="container">
+        <!-- Hero Title -->
+        <h1>The best place to<br>take care of yourself</h1>
+        <!-- Hero Title Info -->
+        <p>BLD SPA NYC offers the best services in order to provide the best <br>results for our consumers. Come see us for the best Lymphatic <br>or Body Sculpting treatments.</p>
 
-    <p style="padding:1em;">If you want to book an appointment click the button</p>
+        <div class="call">
+          <a href="tel:646-409-0628"> Call us at +1 (646) 409-0628</a>
+        </div>
 
-    <a class="button" href="mailto:bldspa01@gmail.com?subject= I want to make an appointment!">Send Email</a>
+        <div class="location">
+          <a href="https://www.google.com/maps/place/35-42+31st+St,+Queens,+NY+11106/@40.75725,-73.9318102,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25f2e03ad3811:0xf1a4499198c9b1b4!8m2!3d40.75725!4d-73.9296215">  35-42 31st St Astoria, NY  11106</a>
+        </div>
 
-    <a class="buttoncall" href="tel:6464090628">Call us</a>
-
-
-    <p>Send us an email or follow us on Instagram.
-    </p>
-    <p>Be the first to know about promotional pagackages.</p>
-
-    <div class="linkimage">
-      <ul id="contactlink">
-
-
-        <li><a href="https://www.instagram.com/bldspa/"><img src="images/instagram.svg" alt="poster">Bldspa</a></li>
-        <li><a href="https://www.instagram.com/bldbychristina/">bldbychristina<img src="images/instagram.svg" alt="poster"></a></li>
-      </ul>
+        <div class="hero-btns">
+          <!-- Hero Btn First -->
+          <a data-scroll href="#about-us">More About us</a>
+          <!-- Hero Btn Second -->
+          <a data-scroll href="#contact-us">Get in Touch</a>
+        </div>
+      </div>
     </div>
+  </header>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio">
+    <div class="container-fluid">
+      <div class="portfolio-aside">
+        <img src="images/shape2.svg" width="35%" height="35%" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/service1.svg" class="photobox__preview" alt="Preview">
+                <p> Lymphatic Drainage </p>
+              <p>Lymphatic drainage is a good treatment for the skin, as it promotes blood circulation, helps to mobilize fluid retention, helping to prevent bags and wrinkles from forming.</p>
+                <!-- Replace Image Title Under -->
+                <span class="photobox__label">Book Now</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/service2.svg" class="photobox__preview" alt="Preview">
+                <p> Slimming Body </p>
+              <p>Slimming body massage is a non-surgical treatment that uses manual massage, wood therapy, cavitation, and radio frequency to help you reduce weight and shape your body.</p>
+                <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Book Now</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/service3.svg" class="photobox__preview" alt="Preview">
+                <p> Wood Therapy </p>
+              <p>Wood therapy helps break down fat and cellulite. The wooden instruments are used to apply direct pressure to "problem areas" and, in essence, naturally remove excess body fat.</p>
+                <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Book Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/service4.svg" class="photobox__preview" alt="Preview">
+                <p> Cavitation </p>
+              <p>Cavitation is extremely effective at removing excess fat, reducing cellulite, improving circulation, and promoting tissue regeneration.<br> the ultrasound waves are used to break down fat cells in the underlying skin layers.</p>
+                <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Book Now</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/service5.svg" class="photobox__preview" alt="Preview">
+                <p> Radio Frequency </p>
+              <p>Radio frequency is a non-invasive, anti-aging and body contouring treatment that burns fat and tighten the skin. Radio frequency helps shape the skin's collagen, tightening the skin's surface.</p>
+                <!-- Replace Image Title Under -->
+                <span class="photobox__label">Book Now</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/service6.svg" class="photobox__preview" alt="Preview">
+                <p> Mesotherapy </p>
+              <p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p>
+                <!-- Replace Image Title Under -->
+                  <span class="photobox__label">Book Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hidden Images From Portfolio -->
+        <div id="hiden-gallery" class="hide">
+          <div class="row">
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service7.svg" class="photobox__preview" alt="Preview">
+                  <p> Hot Stones </p>
+                  <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service8.svg" class="photobox__preview" alt="Preview">
+                  <p>Lash Lift </p>
+                <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service9.svg" class="photobox__preview" alt="Preview">
+                  <p> Relaxing Massage </p>
+                <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service10.svg" class="photobox__preview" alt="Preview">
+                  <p> Lip Blushing </p>
+                <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service11.svg" class="photobox__preview" alt="Preview">
+                  <p> Electrotherapy </p>
+                <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service12.svg" class="photobox__preview" alt="Preview">
+                  <p> Wax </p>
+                  <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service13.svg" class="photobox__preview" alt="Preview">
+                  <p> Manicure and Pedicure </p>
+                  <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service14.svg" class="photobox__preview" alt="Preview">
+                  <p>Vacuum Therapy </p>
+                <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 work-box">
+              <div class="photobox photobox_type10">
+                <div class="photobox__previewbox">
+                  <!-- Replace Patch to Image Under -->
+                  <img src="images/service15.svg" class="photobox__preview" alt="Preview">
+                  <p> Laser Hair Removal </p>
+            <!--<p>Mesotherapy,  is a treatment that includes injecting a supplement solution and natural plant extracts into the skin to renew it.</p> -->
+                  <!-- Replace Image Title Under -->
+                    <span class="photobox__label">Book Now</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 more-btn">
+            <!-- Show Me More/Less Button -->
+            <a class="more-btn-inside">Show More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="images/aboutus.svg" width="80%" height="80%" alt="">
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6">
+          <h5>OUR COMPANY</h5>
+          <h2>Some Fine<br>Words About Us</h2>
+          <!-- Replace About Us Text Under -->
+          <p>At BLD SPA NYC, you will have the best time of your life. we are always here for you from monday to sunday just to give you the best services. Face cleansing, lymphatic massages, and body slimming are among our specialties. This is an
+            ideal date for couples and groups of friends. We have a well-trained team to ensure that you enjoy the greatest possible experience. Come to the bld spa for the best treatment and therapy available. You can ether come to the spa at
+            <B>35-42 31st street, Astoria NY, NY </B> or we can go to your house just book an appoitment and we will be here for you!!</p>
+
+          <div class="call">
+            <img src="images/phone.svg" class="left" alt="">
+            <a href="tel:646-409-0628"> Call us at +1 (646) 409-0628</a>
+          </div>
+
+          <div class="location">
+            <img src="images/map.svg" class="left" alt="">
+            <a href="https://www.google.com/maps/place/35-42+31st+St,+Queens,+NY+11106/@40.75725,-73.9318102,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25f2e03ad3811:0xf1a4499198c9b1b4!8m2!3d40.75725!4d-73.9296215">  35-42 31st St Astoria, NY  11106</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION (testimonials) -->
+  <section id="review" class="review">
+    <div class="container-fluid">
+      <div class="blog-aside">
+        <img src="images/shape3.svg" width="35%" height="35%" alt="">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5>BLD SPA NYC</h5>
+            <h2>Customer Reviews</h2>
+          </div>
+        </div>
+        <div id="blog-drag" class="row blog-slider">
+          <div class="col-12 col-lg-4 blog-box blog-first">
+            <!-- Blog Post Title -->
+            <h6>Customer Reviews</h6>
+            <!-- star image -->
+            <img src="images/star.svg" width="45%" height="45%" alt="">
+            <!-- customer name -->
+            <p>Yevgenia</p>
+            <!-- Blog Post -->
+            <p>Professional and can see results after my first slimming treatment. I Will definitely be back. That’s big because it an hour away from where I live.</p>
+
+          </div>
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Customer Reviews</h6>
+            <!-- star image -->
+            <img src="images/star.svg" width="45%" height="45%" alt="">
+            <!-- customer name -->
+            <p>Tausif</p>
+            <!-- Blog Post -->
+            <p>This place is amazing. Very professional & friendly. Must check it out only if you’re in it for a great experience to take home with you. I definitely recommend this place.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Customer Reviews</h6>
+            <!-- star image -->
+            <img src="images/star.svg" width="45%" height="45%" alt="">
+            <!-- customer name -->
+            <p>Skyy</p>
+            <!-- Blog Post -->
+            <p>Wow. one of the best Lymph slimming massages I've received in a long time. She is so informative -takes her time, wrapped me in a slimming wrap after massage. so great. My body was lean and shredded. I'm going to purchase a package from her.</p>
+          </div>
+          <!-- Blog Section to be showed on Drag  -->
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Customer Reviews</h6>
+            <!-- star image -->
+            <img src="images/star.svg" width="45%" height="45%" alt="">
+            <!-- customer name -->
+            <p>Anju</p>
+            <!-- Blog Post -->
+            <p>Great customer service. She’s is amazing and very informative. She informs you on exactly what she’s going to do and how. Very clean and everything is sanitized. Would definitely recommend her to anyone who needs lymphatic massage. Will definitely visit her again.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Customer Reviews</h6>
+            <!-- star image -->
+            <img src="images/star.svg" width="45%" height="45%" alt="">
+            <!-- customer name -->
+            <p>DIANE</p>
+            <!-- Blog Post -->
+            <p>Had my cellulite treatment yesterday done by Valentina. SHE WAS AWESOME! Besides being very personable, she was knowledgeable. Not gonna lie, I’m a little sore today, just hope that that means the treatment is working. Going again next week. Here’s hoping I can somewhat curb the ugly look of cellulite!.</p>
+          </div>
+          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Customer Reviews</h6>
+            <!-- star image -->
+            <img src="images/star.svg" width="45%" height="45%" alt="">
+            <!-- customer name -->
+            <p>Jennifer</p>
+            <!-- Blog Post -->
+            <p>Such a delightful experience! This place is a little under cover and it’s location, but I’m actually really glad that it’s a hidden gem! The service was great, and the staff is very knowledgeable! I will be purchasing the package, that’s how much I loved it!.</p>
+          </div>
+        </div>
+        <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
+        <button class="hide-me" id="blog-btn">Show More Stories</button>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT SECTION -->
+  <section id="contact-us" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>CONTACT US</h5>
+          <h2>Book your Appoitment</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Your email" type="email" id="email" pattern=".+@globex.com" size="30" required>
+        </div>
+        <div class="col-12 col-lg-6 email">
+          <input placeholder="Subject" type="subject" id="subject" size="30" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 message">
+          <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+        </div>
+        <div class="col-12">
+          <div class="hero-btns contact-btn">
+            <!-- Send Message Btn -->
+            <a href="#">Send Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-  </div>
-
-
+  <!-- FOOTER SECTION -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>BLD SPA NYC</h5>
+          <h3>CONTACT US</h3>
+          <ul class="contact-nav">
+            <li><a data-scroll href="#home">Home.</a></li>
+            <li><a data-scroll href="#about-us">About Us.</a></li>
+            <li><a data-scroll href="#portfolio">Portfolio.</a></li>
+            <li><a data-scroll href="#blog">Blog.</a></li>
+            <li><a data-scroll href="#contact-us">Contact.</a></li>
+          </ul>
+          <h6>© 2021 - BLD SPA NYC, All Right Reserved!</h6>
+          <ul class="social">
+            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+            <li><a href="#"><i class="icofont-dribbble"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Scripts Ends -->
 </body>
 
 </html>
